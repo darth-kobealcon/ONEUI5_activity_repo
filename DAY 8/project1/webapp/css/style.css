@@ -1,0 +1,27 @@
+.headerTitle {
+    color: #b72121 !important;
+    font-size: 1.5rem !important;
+}
+
+.footerBar {
+    background-color: #a80000 !important;
+}
+
+.footerBar .sapMBtnInner {
+    background-color: #ffffff !important;
+    color: #2c2c2c !important;
+}
+
+.footerBar .sapMBtnInner:hover {
+    background-color: #d4af37 !important;
+
+}
+
+.customMessageBox .sapMBar {
+    background-color: #a80000 !important;
+    color: #2c2c2c !important;
+}
+
+.customMessageBox .sapMBar .sapMTitle {
+    color: #d4af37 !important;
+}

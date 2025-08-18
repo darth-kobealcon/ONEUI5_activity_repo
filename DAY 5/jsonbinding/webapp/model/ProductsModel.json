@@ -1,0 +1,88 @@
+{
+  "Products": [
+    {
+      "ProductID": "S005",
+      "ProductName": "iPhone 16 Plus 128GB Black",
+      "SupplierID": "Apple",
+      "CategoryID": "iPhone",
+      "QuantityPerUnit": "128",
+      "UnitPrice": "62990",
+      "UnitsInStock": "128",
+      "UnitsOnOrder": "0",
+      "ReorderLevel": "0",
+      "Discontinued": "false"
+    },
+    {
+      "ProductID": "S006",
+      "ProductName": "Samsung Galaxy S24 Ultra 256GB Phantom Black",
+      "SupplierID": "Samsung",
+      "CategoryID": "Galaxy",
+      "QuantityPerUnit": "256",
+      "UnitPrice": "58990",
+      "UnitsInStock": "75",
+      "UnitsOnOrder": "10",
+      "ReorderLevel": "20",
+      "Discontinued": "false"
+    },
+    {
+      "ProductID": "S007",
+      "ProductName": "Google Pixel 9 Pro 128GB Obsidian",
+      "SupplierID": "Google",
+      "CategoryID": "Pixel",
+      "QuantityPerUnit": "128",
+      "UnitPrice": "52990",
+      "UnitsInStock": "60",
+      "UnitsOnOrder": "5",
+      "ReorderLevel": "15",
+      "Discontinued": "false"
+    },
+    {
+      "ProductID": "S008",
+      "ProductName": "OnePlus 12 256GB Emerald Green",
+      "SupplierID": "OnePlus",
+      "CategoryID": "OnePlus",
+      "QuantityPerUnit": "256",
+      "UnitPrice": "48990",
+      "UnitsInStock": "90",
+      "UnitsOnOrder": "0",
+      "ReorderLevel": "10",
+      "Discontinued": "false"
+    },
+    {
+      "ProductID": "S009",
+      "ProductName": "Sony Xperia 1 VI 512GB Frosted Black",
+      "SupplierID": "Sony",
+      "CategoryID": "Xperia",
+      "QuantityPerUnit": "512",
+      "UnitPrice": "64990",
+      "UnitsInStock": "40",
+      "UnitsOnOrder": "8",
+      "ReorderLevel": "12",
+      "Discontinued": "false"
+    },
+    {
+      "ProductID": "S010",
+      "ProductName": "Motorola Edge 50 Pro 256GB Luxe Lavender",
+      "SupplierID": "Motorola",
+      "CategoryID": "Edge",
+      "QuantityPerUnit": "256",
+      "UnitPrice": "42990",
+      "UnitsInStock": "100",
+      "UnitsOnOrder": "0",
+      "ReorderLevel": "25",
+      "Discontinued": "false"
+    },
+    {
+      "ProductID": "S011",
+      "ProductName": "Xiaomi 14 Pro 512GB Ceramic White",
+      "SupplierID": "Xiaomi",
+      "CategoryID": "Mi",
+      "QuantityPerUnit": "512",
+      "UnitPrice": "45990",
+      "UnitsInStock": "85",
+      "UnitsOnOrder": "15",
+      "ReorderLevel": "30",
+      "Discontinued": "false"
+    }
+  ]
+}

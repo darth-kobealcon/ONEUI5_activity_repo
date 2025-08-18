@@ -1,0 +1,21 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}" class="headerTitle">
+        <customHeader>
+            <Bar id="bar0">
+                <contentMiddle>
+                    <Label id="label0" text="Page 1 Header" class="headerTitle"/>
+                </contentMiddle>
+            </Bar>
+        </customHeader>
+        <footer>
+            <Bar id="bar1" class="footerBar">
+                <contentRight>
+                    <Button id="btn0" text="Info" press="onInfoPress" class="button1"/>
+                    <Button id="btn1" text="Next" press="onPage1ToPage2" class="button2"/>
+                </contentRight>
+            </Bar>
+        </footer>
+    </Page>
+</mvc:View>

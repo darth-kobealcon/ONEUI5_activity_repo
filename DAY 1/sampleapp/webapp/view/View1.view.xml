@@ -1,0 +1,31 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.ui5.trng.sampleapp.controller.View1"><Page id="page" title="{i18n>title}">
+    <content>
+        <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" editable="true" layout="ResponsiveGridLayout" id="form0_1754464110870">
+            <sap.ui.layout.form:content>
+                <Label text="Name" id="Label1"/>
+                <Input width="100%" id="input1_1754464110870"/>
+                <Label id="label2" text="Street/No"/>
+                <Input width="100%" id="input2"/>
+                <Input xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" width="100%" id="input2_copy"/>
+                <Label xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" id="label1_copy" text="ZIP Code/City"/>
+                <Input xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" width="100%" id="input2_copy2"/>
+                <Input xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" width="100%" id="input2_copy3"/>
+                <Label xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" id="label0_copy" text="Country"/>
+                <Select xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" id="select0_copy2">
+                    <items>
+                        <core:Item xmlns:core="sap.ui.core" key="item-key-1" text="England" id="item0"/>
+                        <core:Item xmlns:core="sap.ui.core" key="item-key-2" text="Germany" id="item1"/>
+                        <core:Item xmlns:core="sap.ui.core" key="item-key-3" text="USA" id="item2"/>
+                        <core:Item xmlns:core="sap.ui.core" key="item-key-4" text="Philippines" id="item3"/>
+                        </items>
+                    
+                </Select></sap.ui.layout.form:content>
+        </sap.ui.layout.form:SimpleForm>
+                <Toolbar id="_IDGenToolbar">
+                    <Button id="_IDGenButton" text="Clear" type="Reject" press="onClearPress"/>
+                    <Button id="_IDGenButton1" text="Save" type="Accept" press="onSavePress"/>
+                </Toolbar>
+ 
+    </content>
+    </Page>
+</mvc:View>
