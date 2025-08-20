@@ -32,5 +32,5 @@ function numberToWords(number) {
     return word;
 }
  
-var number = 69;
+var number = 789;
 console.log(numberToWords(number));
